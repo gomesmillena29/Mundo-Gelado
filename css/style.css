@@ -72,3 +72,144 @@ ul li {
     padding: 0 50px 20px 30px;
     word-wrap: break-word
 }
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+.contact {
+    background-image: linear-gradient(to bottom, transparent 50%, #161616 99%), url(../img/foto-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 1100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+ }
+
+ .contact_icon{
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.contact_title, .contact_title_form  {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+
+}
+ .contact_title{
+    margin: 0 auto;
+ }
+
+
+ .contact_paragraph{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 20px;
+    color: #20252A;
+ }
+
+ .contact_maps {
+     display: none;
+ }
+
+ .contact_title_form {
+    padding: 20px 0 10px;
+}
+
+.contact_form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.contact_form label {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+
+ }
+
+ .contact_form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:rgb(0, 0, 0); 
+ }
+
+ .contact_form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 150px;
+    color:rgb(0, 0, 0); 
+ }
+
+ .contact__btn--enviar {
+    background-color: #a4bac7;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 20px 25px;
+    letter-spacing: 0.2rem;
+    margin: 40px;
+}
+
+.contact_btn--enviar:hover {
+    background-color: #36B0E0;
+}
+
+.footer {
+    background-color:#161616;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.footer_number {
+    text-decoration: none;
+    color: #7D9DAF;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 20px 0 40px 0;
+}
+
+.footer_mediasocial{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px 0;
+}
+
+.footer_twitter, .footer_youtube, .footer_facebebook {
+    padding: 15px;
+    width: 50%;
+}
+
+.footer p {
+    color: #8e8a8a;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
