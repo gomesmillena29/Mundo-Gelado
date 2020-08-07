@@ -82,6 +82,94 @@ ul li {
 
 }
 
+.btn_main {
+    background-color: #a4bac7;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 20px 25px;
+    letter-spacing: 0.2rem;
+
+}
+
+.btn_main:hover {
+    background-color: #36B0E0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom 61616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
+    height: 360px;
+    margin-bottom: 100px;
+}
+
+.about_title {
+    color: #FFF;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 30px 20px 5px 20px;
+}
+
+.about_container {
+    color: #929292;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.second_container,
+.quote,
+.second_container {
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+    max-width: 960px;
+}
+
+.border_container {
+    display: none;
+}
+
+.quote_img_groelandia:hover, .quote_img_antartida:hover, .container_img_siberia:hover{
+    width: 100%;
+}
+
+
+.quote_img_groelandia:hover, .quote_img_antartida:hover, .container_img_siberia:hover{
+    -webkit-filter:grayscale(100%);
+    transition: 1s;
+}
+
+.destination__title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+ }
+
+ .quote_paragraph {
+    font-size: 1rem;
+    text-align: center;
+    color:#8e8a8a;
+    padding: 5px 50px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 600;
+ }
+
+ .quote, .second_quote {
+    background-color: #161616;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
 .contact {
     background-image: linear-gradient(to bottom, transparent 50%, #161616 99%), url(../img/foto-footer.jpg);
     background-repeat: no-repeat;
@@ -93,37 +181,39 @@ ul li {
     align-items: center;
     flex-direction: column;
     background-size: cover;
- }
+}
 
- .contact_icon{
+.contact_icon {
     margin-top: 90px;
     margin-bottom: 5px;
 }
 
-.contact_title, .contact_title_form  {
+.contact_title,
+.contact_title_form {
     font-size: 1.8rem;
     color: #fff;
     font-weight: 600;
 
 }
- .contact_title{
+
+.contact_title {
     margin: 0 auto;
- }
+}
 
 
- .contact_paragraph{
+.contact_paragraph {
     font-size: 1.6rem;
     text-align: center;
     font-weight: 600;
     padding: 0 20px;
     color: #20252A;
- }
+}
 
- .contact_maps {
-     display: none;
- }
+.contact_maps {
+    display: none;
+}
 
- .contact_title_form {
+.contact_title_form {
     padding: 20px 0 10px;
 }
 
@@ -142,9 +232,9 @@ ul li {
     color: #fff;
     font-weight: 600;
 
- }
+}
 
- .contact_form input {
+.contact_form input {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #FFF;
@@ -152,10 +242,10 @@ ul li {
     width: 100%;
     font-size: 1.2rem;
     font-weight: 600;
-    color:rgb(0, 0, 0); 
- }
+    color: rgb(0, 0, 0);
+}
 
- .contact_form textarea {
+.contact_form textarea {
     background: transparent;
     border: none;
     border-bottom: 1px solid #fff;
@@ -164,10 +254,10 @@ ul li {
     font-size: 1.2rem;
     font-weight: 600;
     height: 150px;
-    color:rgb(0, 0, 0); 
- }
+    color: rgb(0, 0, 0);
+}
 
- .contact__btn--enviar {
+.contact__btn--enviar {
     background-color: #a4bac7;
     font-size: 0.8rem;
     font-weight: bold;
@@ -181,7 +271,7 @@ ul li {
 }
 
 .footer {
-    background-color:#161616;
+    background-color: #161616;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -196,13 +286,15 @@ ul li {
     padding: 20px 0 40px 0;
 }
 
-.footer_mediasocial{
+.footer_mediasocial {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 20px 0;
 }
 
-.footer_twitter, .footer_youtube, .footer_facebebook {
+.footer_twitter,
+.footer_youtube,
+.footer_facebebook {
     padding: 15px;
     width: 50%;
 }
